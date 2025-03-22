@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="ticket_head">
-          <img className="logo" src="public/img/photo_2025-03-17_20-36-31.jpg" />
+          <img className="logo" src="/img/photo_2025-03-17_20-36-31.jpg" />
           <h2 className="subtitle">YVN PARTY</h2>
           <p className="direction">JUST FOR FUN</p>
           <p className="direction">հարցերի դեպքում +374(33) 180 033</p>
