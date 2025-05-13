@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #e7e4e4;
+  background: #e7e4e4;
+  background: radial-gradient(
+    circle,
+    rgba(231, 228, 228, 1) 80%,
+    rgba(255, 183, 0, 1) 96%
+  );
+}
+.App {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    .ticket_head {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 14px;
+
+      .logo {
+        width: 220px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .subtitle {
+        color: #ffff;
+        font-size: 24px;
+
+        span {
+          color: #ff8d00;
+        }
+      }
+
+      .direction {
+        color: #ff5810;
+        font-size: 17px;
+      }
+
+      .incon_box {
+        display: flex;
+        gap: 18px;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    .ticket_cards {
+      margin: 34px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      a {
+        text-decoration: none;
+      }
+
+      .card {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        width: 580px;
+        height: 68px;
+        background-color: #fff;
+        border-radius: 32px;
+        transition: all 0.2s;
+
+        .card_text {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        img {
+          width: 60px;
+          height: 55px;
+          border-radius: 50%;
+          object-fit: contain;
+        }
+
+        p {
+          color: #ff8d00;
+        }
+
+        @media screen and (max-width: 600px) {
+          width: 500px;
+        }
+        @media screen and (max-width: 500px) {
+          width: 400px;
+        }
+        @media screen and (max-width: 400px) {
+          width: 320px;
+        }
+      }
+
+      .card:hover {
+        background: none;
+        color: #fff;
+        border: 2px solid #fff;
+      }
+    }
+  }
+}
