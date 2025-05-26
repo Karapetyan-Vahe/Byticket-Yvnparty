@@ -12,6 +12,7 @@ function App() {
         <div className="ticket_head">
           <img className="logo" src="/img/logo_2.png" />
           <p className="subtitle"><span className="direct_oring">JUST</span> FOR <span className="direct_oring">FUN</span></p>
+          <p className="subtitle_"><span className="direct_oring">Welcome</span> Summer <span className="direct_oring"></span></p>
           <p className="direction">հարցերի դեպքում +374(33) 180 033</p>
 
           <div className="incon_box">
